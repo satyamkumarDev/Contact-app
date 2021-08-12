@@ -1,0 +1,21 @@
+{
+    "name": "contact-app",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch backend-contact --exec node --experimental-modules backend-contact/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-async-handler": "^1.1.4",
+        "fast-two-sms": "^3.0.0",
+        "mongoose": "^5.13.5",
+        "nodemon": "^2.0.12",
+        "unirest": "^0.6.0"
+    }
+}
