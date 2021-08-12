@@ -5,7 +5,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon --watch backend-contact --exec node --experimental-modules backend-contact/server.js"
+        "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
     },
     "author": "",
     "license": "ISC",
